@@ -85,8 +85,7 @@ seaborn
 joblib
 jupyter
 
-📌 Author
+## 📌 Author
 
-Shivani Naroju
-Guru Nanak Institutions of Technical Campus
-Internship Submission: Titanic Data Cleaning & Preprocessing
+- Shivani Naroju
+- Guru Nanak Institutions of Technical Campus
