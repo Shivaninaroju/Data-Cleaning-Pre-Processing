@@ -36,53 +36,47 @@ This repository contains a high-quality Jupyter Notebook designed for **data cle
    ```bash
    git clone <repository_url>
 2. Add the Dataset
-
-Place the Titanic CSV file in the data/ folder as titanic.csv.
-(If the file is missing, the notebook will use Seaborn's Titanic dataset for demonstration.)
+   Place the Titanic CSV file in the data/ folder as titanic.csv.
+  (If the file is missing, the notebook will use Seaborn's Titanic dataset for demonstration.)
 3. Set Up Python Environment
+   Create a virtual environment and install dependencies:
 
-Create a virtual environment and install dependencies:
-
-python -m venv venv       # Create virtual environment
-source venv/bin/activate  # Activate (Linux/Mac)
-venv\Scripts\activate     # Activate (Windows)
-pip install -r requirements.txt  # Install dependencies
+     python -m venv venv       # Create virtual environment
+     source venv/bin/activate  # Activate (Linux/Mac)
+     venv\Scripts\activate     # Activate (Windows)
+    pip install -r requirements.txt  # Install dependencies
 
 4. Launch Jupyter Notebook
-jupyter notebook titanic_preprocessing.ipynb
+   jupyter notebook titanic_preprocessing.ipynb
 
 
 This will open the notebook in your browser where you can run cells step-by-step.
 
-📊 Notebook Highlights
+## 📊 Notebook Highlights
 
-Exploratory Data Analysis (EDA): Understand the data distribution, visualize patterns, and identify anomalies.
+- Exploratory Data Analysis (EDA): Understand the data distribution, visualize patterns, and identify anomalies.
 
-Handling Missing Data: Fill missing values using median, mode, or other strategies.
+- Handling Missing Data: Fill missing values using median, mode, or other strategies.
 
-Feature Engineering: Create meaningful new features like family size or title extraction.
+- Feature Engineering: Create meaningful new features like family size or title extraction.
 
-Encoding & Scaling: Convert categorical features to numeric format and scale numeric features for modeling.
+- Encoding & Scaling: Convert categorical features to numeric format and scale numeric features for modeling.
 
-Outlier Analysis: Detect and remove extreme values using boxplots and the IQR method.
+- Outlier Analysis: Detect and remove extreme values using boxplots and the IQR method.
 
-Pipeline Export: Save preprocessing steps as preprocessing_pipeline.joblib to ensure reproducibility.
+- Pipeline Export: Save preprocessing steps as preprocessing_pipeline.joblib to ensure reproducibility.
 
-📝 Notes
-
-Notebook is fully reproducible with clear explanations for every step.
 
 Outputs include titanic_cleaned.csv and preprocessing_pipeline.joblib in the output/ folder.
 
-Suitable for internship submission, beginner-to-intermediate learning, or as a reference for real-world data preprocessing projects.
 
-🔗 References
+## 🔗 References
 
-Kaggle Titanic Dataset: https://www.kaggle.com/c/titanic/data
+**Kaggle Titanic Dataset:** https://www.kaggle.com/c/titanic/data
 
-Python Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn, joblib
+**Python Libraries:** pandas, numpy, scikit-learn, matplotlib, seaborn, joblib
 
-⚙️ Requirements
+## ⚙️ Requirements
 pandas
 numpy
 scikit-learn
